@@ -159,26 +159,26 @@
           "icons": "<a class=\"fa\" data-app-btn=\"true\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"fa fa-linkedin\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Dribble\" target=\"_blank\" href=\"https://dribbble.com/Mobirise\"><i class=\"fa fa-dribbble\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"fa fa-instagram\"></i></a> ",
           "text2": "MADE WITH LOVE AND FREDDOS&nbsp;<br><b><a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><br>",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\">Send Message<i class=\"fa fa-paper-plane-o\"></i></a>",
-          "title": "Quick Message",
+          "title": "<b>ΤΟ ΜΗΝΥΜΑ ΣΑΣ</b>",
           "form": {
             "action": "sineterakia@mailinator.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Επιτυχία! Ευχαριστούμε για το ενδιαφέρον σας!"
             },
             "fields": {
               "name": {
                 "visible": true,
                 "title": "Name",
-                "customTitle": "Your Name here"
+                "customTitle": "Το Όνομά σας"
               },
               "email": {
                 "visible": true,
                 "title": "Email",
-                "customTitle": "Email Address here"
+                "customTitle": "Το Email σας"
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Message here"
+                "customTitle": "Γράψτε εδώ το μήνυμά σας"
               }
             }
           },
