@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "sineterakia",
-    "currentPage": "page1.html",
+    "currentPage": "index2.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -29,7 +29,7 @@
     "google-analytics": ""
   },
   "pages": {
-    "index.html": {
+    "index2.html": {
       "settings": {
         "main": true,
         "title": "sineterakia",
@@ -51,16 +51,16 @@
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".navbar, .dropdown-menu": {
-              "background": "#fff"
+              "background": "#ffffff"
             },
             ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
               "background": "#f5f5f5"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "dropdown-menu1",
@@ -97,110 +97,6 @@
             "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/14.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#8c230e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.25,
-            "showIcons": true,
-            "iconsColor": "#fff",
-            "icon1": "fa-database",
-            "icon2": "fa-lightbulb-o",
-            "icon3": "fa-money",
-            "icon4": "fa-clock-o",
-            "showTitles": true
-          },
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "title": "<b>Μεταφορές Με Ασφάλεια, Στην Ώρα τους, και Οικονομικά.</b>",
-          "title1": "Multi Layouts",
-          "title2": "Creative Idea",
-          "title3": "Target Buyers",
-          "title4": "Reach Top",
-          "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
-          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-primary\">Purchase Now <i class=\"fa fa-shopping-basket\"></i></a>",
-          "_name": "header27",
-          "_anchor": "header27-7"
-        }
-      ]
-    },
-    "page1.html": {
-      "settings": {
-        "title": "videos",
-        "meta_descr": "ΜΕΤΑΦΟΡΕΣ, ΜΕΤΑΚΟΜΙΣΕΙΣ, ΑΝΥΨΩΣΕΙΣ, ΡΥΜΟΥΛΚΗΣΕΙΣ, ΘΕΣΣΑΛΟΝΙΚΗ",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": "",
-        "order": 1
-      },
-      "components": [
-        {
-          "_inherit": "dropdown-menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#000000"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#ffffff"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#000000"
-            }
-          },
-          "_name": "dropdown-menu1",
-          "_params": {
-            "logo": false,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "transparent": false,
-            "bgColor": "#ffffff",
-            "fontSize": 1,
-            "fontName": {},
-            "fontColor": "#000000"
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            }
-          },
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">αρχικη</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">multiμεdia</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">ΦΩΤΟΓΡΑΦΙΕΣ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">ΒΙΝΤΕΟ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-primary\" href=\"tel:+306944715900\">ΚΛΙΚ ΓΙΑ ΤΗΛΕΦΩΝΟ ΕΔΩ</a></li>",
-          "_anchor": "dropdown-menu1-8"
-        },
-        {
-          "_inherit": "header7",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/62-2000x1500.jpg",
             "parallax": false,
@@ -212,7 +108,7 @@
             },
             "overlay": true,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.25,
+            "overlayOpacity": "0.4",
             "showIcons": false,
             "iconsColor": "#fff",
             "icon1": "fa-database",
@@ -230,10 +126,10 @@
           "title2": "Creative Idea",
           "title3": "Target Buyers",
           "title4": "Reach Top",
-          "text": "Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.",
-          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\">facebook messenger</a>",
+          "text": "<b>Είμαστε στη διάθεσή σας για ότι μας χρειαστείτε. Τηλεφωνήστε μας ώρες γραφείου, ή επικοινωνήστε μέσω e-mail και Facebook Messenger.</b>",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\">FACEBOOK MESSENGER</a>",
           "_name": "header27",
-          "_anchor": "header27-9"
+          "_anchor": "header27-7"
         },
         {
           "_params": {
@@ -258,10 +154,10 @@
               "stateDetails": ""
             }
           },
-          "title1": "Unicore",
+          "title1": "ΤΑ ΣΥΝΕΤΑΙΡΑΚΙΑ",
           "text1": "TERMS OF SERVICE<br>PRIVACY POLICY<br>DISCLAIMER",
           "icons": "<a class=\"fa\" data-app-btn=\"true\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"fa fa-linkedin\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Dribble\" target=\"_blank\" href=\"https://dribbble.com/Mobirise\"><i class=\"fa fa-dribbble\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"fa fa-instagram\"></i></a> ",
-          "text2": "MADE WITH LOVE AND FREDDOS&nbsp;<br><b>leanshot.xyz</b><br>",
+          "text2": "MADE WITH LOVE AND FREDDOS&nbsp;<br><b><a href=\"https://leanshot.xyz\" target=\"_blank\">leanshot.xyz</a></b><br>",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\">Send Message<i class=\"fa fa-paper-plane-o\"></i></a>",
           "title": "Quick Message",
           "form": {
@@ -291,7 +187,12 @@
             "Theme"
           ],
           "_name": "contacts4",
-          "_anchor": "contacts4-b"
+          "_anchor": "contacts4-b",
+          "_styles": {
+            "H1": {
+              "font-size": "12px"
+            }
+          }
         }
       ]
     }
